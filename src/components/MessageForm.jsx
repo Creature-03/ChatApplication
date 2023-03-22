@@ -43,7 +43,7 @@ function MessageForm(props) {
             type="file" 
             multiple={false}
             id='upload-button'
-            style={{ display: none }}
+            style={{ display: 'none' }}
             onChange={handleUpload}
         />
         <button type='submit' className='send-button'>
